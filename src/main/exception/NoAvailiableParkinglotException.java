@@ -1,4 +1,4 @@
-package parkinglot;
+package exception;
 
 public class NoAvailiableParkinglotException extends Exception {
 

@@ -19,15 +19,15 @@ Then 车1停车成功；车2停车成功  返回2个凭证
 
 Given 一个停车场0个凭证
 When 取车
-Then 取车失败 /
+Then 取车失败 
 
 Given 一个停车场1个凭证
 When 取车
-Then 取车成功
+Then 取车成功 
 
 Given 一个停车场假凭证
 When 取车
-Then 取车失败
+Then 取车失败 
 
 Given 一个停车场1个凭证
 When 取两次车
