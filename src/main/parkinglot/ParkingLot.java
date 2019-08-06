@@ -8,7 +8,7 @@ import java.util.Map;
 
 public class ParkingLot {
 
-    private int freeSpace = 50;
+    protected int freeSpace;
     private final Map<ParkingLotReceipt,Car> parkingLotReceipts = new HashMap<>();
 
     public ParkingLot(int freeSpace) {

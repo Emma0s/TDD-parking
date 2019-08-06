@@ -46,7 +46,7 @@ public class ParkingLotTest {
     }
 
     @Test
-    public void should_success_with_1_receipt_when_getting_car() throws NoAvailiableParkinglotException {
+    public void should_success_with_1_true_receipt_when_getting_car() throws NoAvailiableParkinglotException {
         ParkingLot parkingLot = new ParkingLot(1);
         Car myCar = new Car();
         ParkingLotReceipt receipt = parkingLot.park(myCar);
@@ -69,68 +69,5 @@ public class ParkingLotTest {
         parkingLot.get(parkingLotReceipt);
     }
 
-
-    @Test
-    public void should_success_with_parkinglot1_has_1_space_when_1_car_parking() throws NoAvailiableParkinglotException {
-        ParkingLot parkingLot1 = new ParkingLot(1);
-        ParkingLot parkingLot2 = new ParkingLot(0);
-        Employee employee = new Employee(Arrays.asList(parkingLot1, parkingLot2));
-        Car car = new Car();
-        ParkingLotReceipt receipt = employee.park(car);
-        Assert.assertSame(car,employee.get(receipt));
-    }
-
-    @Test
-    public void should_success_with_parkinglot2_has_1_space_when_1_car_parking() throws NoAvailiableParkinglotException {
-        ParkingLot parkingLot1 = new ParkingLot(0);
-        ParkingLot parkingLot2 = new ParkingLot(1);
-        Employee employee = new Employee(Arrays.asList(parkingLot1, parkingLot2));
-        Car car = new Car();
-        ParkingLotReceipt receipt = employee.park(car);
-        Assert.assertSame(car,employee.get(receipt));
-    }
-
-    @Test
-    public void should_success_with_parkinglot1_parkinglot2_both_have_1_space_when_1_car_parking() throws NoAvailiableParkinglotException {
-        ParkingLot parkingLot1 = new ParkingLot(1);
-        ParkingLot parkingLot2 = new ParkingLot(1);
-        Employee employee = new Employee(Arrays.asList(parkingLot1,parkingLot2));
-        Car car = new Car();
-        ParkingLotReceipt receipt = employee.park(car);
-        Assert.assertSame(car,employee.get(receipt));
-    }
-
-    @Test(expected = NoAvailiableParkinglotException.class)
-    public void should_success_first_car_with_only_parkinglot1_has_1_space_when_2_car_parking() throws NoAvailiableParkinglotException {
-        ParkingLot parkingLot1 = new ParkingLot(1);
-        ParkingLot parkingLot2 = new ParkingLot(0);
-        Employee employee = new Employee(Arrays.asList(parkingLot1,parkingLot2));
-        Car car1 = new Car();
-        Car car2 = new Car();
-        ParkingLotReceipt receipt = employee.park(car1);
-        Assert.assertNotNull(receipt);
-        employee.park(car2);
-    }
-
-    @Test
-    public void should_success_with_1_true_receipt_when_pick_up_car() throws NoAvailiableParkinglotException {
-        ParkingLot parkingLot1 = new ParkingLot(0);
-        ParkingLot parkingLot2 = new ParkingLot(1);
-        Employee employee = new Employee(Arrays.asList(parkingLot1,parkingLot2));
-        Car car = new Car();
-        ParkingLotReceipt receipt = parkingLot2.park(car);
-        Assert.assertSame(car,employee.get(receipt));
-    }
-
-    @Test(expected = NoAvailableReceiptException.class)
-    public void should_success_fist_with_1_true_receipt_when_pick_up_twice() throws NoAvailiableParkinglotException {
-        ParkingLot parkingLot1 = new ParkingLot(1);
-        ParkingLot parkingLot2 = new ParkingLot(0);
-        Employee employee = new Employee(Arrays.asList(parkingLot1,parkingLot2));
-        Car car = new Car();
-        ParkingLotReceipt receipt = parkingLot1.park(car);
-        Assert.assertSame(car,employee.get(receipt));
-        employee.get(receipt);
-    }
 }
 
