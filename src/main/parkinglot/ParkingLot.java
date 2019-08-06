@@ -8,7 +8,7 @@ import java.util.Map;
 
 public class ParkingLot {
 
-    private int freeSpace;
+    private int freeSpace = 50;
     private final Map<ParkingLotReceipt,Car> parkingLotReceipts = new HashMap<>();
 
     public ParkingLot(int freeSpace) {
@@ -16,16 +16,17 @@ public class ParkingLot {
     }
 
     public ParkingLotReceipt park(Car car) throws NoAvailiableParkinglotException {
-        if (freeSpace > 0){
+        if (freeSpace <= 0){
+            throw new NoAvailiableParkinglotException("当前可用车位为0！");
+        } else {
             freeSpace --;
-            return giveReceipt(car);
         }
-        throw new NoAvailiableParkinglotException();
-    }
+        return giveReceipt(car);
 
+    }
     public Car get(ParkingLotReceipt receipt) {
         if (receipt == null || !isReceiptValid(receipt)){
-            throw new NoAvailableReceiptException("No Available Receipt!");
+            throw new NoAvailableReceiptException("票据验证失败！");
         }
         return parkingLotReceipts.remove(receipt);
     }
@@ -34,6 +35,16 @@ public class ParkingLot {
         ParkingLotReceipt receipt = new ParkingLotReceipt();
         parkingLotReceipts.put(receipt,car);
         return receipt;
+    }
+
+    public boolean containsReceipt(ParkingLotReceipt receipt){
+        if (parkingLotReceipts.containsKey(receipt)) return true;
+        return false;
+    }
+
+    public boolean hasAvailiableParkinglot(){
+        if (freeSpace > 0) return true;
+        return false;
     }
 
     private boolean isReceiptValid(ParkingLotReceipt receipt){
