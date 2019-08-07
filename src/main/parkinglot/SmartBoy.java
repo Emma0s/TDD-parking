@@ -1,7 +1,5 @@
 package parkinglot;
 
-import exception.NoAvailiableParkinglotException;
-
 import java.util.List;
 
 public class SmartBoy extends Employee {
@@ -11,7 +9,7 @@ public class SmartBoy extends Employee {
     }
 
     @Override
-    public ParkingLotReceipt park(Car car) throws NoAvailiableParkinglotException {
+    public ParkingLotReceipt park(Car car) {
         ParkingLot maxParkinglot = null;
         int maxSpace = 0;
         for (ParkingLot parkinglot : parkingLots) {

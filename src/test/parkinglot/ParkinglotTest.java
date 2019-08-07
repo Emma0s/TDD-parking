@@ -4,11 +4,7 @@ import exception.NoAvailableReceiptException;
 import exception.NoAvailiableParkinglotException;
 import org.junit.*;
 
-import java.util.Arrays;
-import java.util.List;
-
-
-public class ParkingLotTest {
+public class ParkinglotTest {
     @Test(expected = NoAvailiableParkinglotException.class)
     public void should_failure_when_1_car_parking_given_0_parkinglot() throws NoAvailiableParkinglotException {
         ParkingLot parkingLot = new ParkingLot(0);

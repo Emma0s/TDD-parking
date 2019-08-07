@@ -9,13 +9,19 @@ import java.util.Map;
 public class ParkingLot {
 
     protected int freeSpace;
+    protected int totalSpace;
     private final Map<ParkingLotReceipt,Car> parkingLotReceipts = new HashMap<>();
 
     public ParkingLot(int freeSpace) {
         this.freeSpace = freeSpace;
     }
 
-    public ParkingLotReceipt park(Car car) throws NoAvailiableParkinglotException {
+    public ParkingLot(int freeSpace , int totalSpace) {
+        this.freeSpace = freeSpace;
+        this.totalSpace = totalSpace;
+    }
+
+    public ParkingLotReceipt park(Car car) {
         if (freeSpace <= 0){
             throw new NoAvailiableParkinglotException("当前可用车位为0！");
         } else {

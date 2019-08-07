@@ -23,7 +23,7 @@ public class Employee {
         throw new NoAvailiableParkinglotException("当前可用车位为0！");
     }
 
-    public Car get(ParkingLotReceipt receipt) throws NoAvailableReceiptException {
+    public Car get(ParkingLotReceipt receipt) {
         for (ParkingLot parkingLot : parkingLots) {
             if (parkingLot.containsReceipt(receipt)){
                 return parkingLot.get(receipt);
