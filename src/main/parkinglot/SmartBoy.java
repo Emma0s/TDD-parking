@@ -13,9 +13,9 @@ public class SmartBoy extends Employee {
         ParkingLot maxParkinglot = null;
         int maxSpace = 0;
         for (ParkingLot parkinglot : parkingLots) {
-            if (parkinglot.freeSpace > maxSpace){
+            if (parkinglot.totalSpace - parkinglot.parkingLotReceipts.size() > maxSpace){
                 maxParkinglot = parkinglot;
-                maxSpace = parkinglot.freeSpace;
+                maxSpace = parkinglot.totalSpace - parkinglot.parkingLotReceipts.size();
             }
         }
         return maxParkinglot.park(car);

@@ -8,26 +8,19 @@ import java.util.Map;
 
 public class ParkingLot {
 
-    protected int freeSpace;
     protected int totalSpace;
-    private final Map<ParkingLotReceipt,Car> parkingLotReceipts = new HashMap<>();
+    protected final Map<ParkingLotReceipt,Car> parkingLotReceipts = new HashMap<>();
 
-    public ParkingLot(int freeSpace) {
-        this.freeSpace = freeSpace;
-    }
-
-    public ParkingLot(int freeSpace , int totalSpace) {
-        this.freeSpace = freeSpace;
+    public ParkingLot(int totalSpace) {
         this.totalSpace = totalSpace;
     }
 
     public ParkingLotReceipt park(Car car) {
-        if (freeSpace <= 0){
-            throw new NoAvailiableParkinglotException("当前可用车位为0！");
+        if (hasAvailiableParkinglot()){
+            return giveReceipt(car);
         } else {
-            freeSpace --;
+            throw new NoAvailiableParkinglotException("当前可用车位为0！");
         }
-        return giveReceipt(car);
 
     }
     public Car get(ParkingLotReceipt receipt) {
@@ -49,7 +42,7 @@ public class ParkingLot {
     }
 
     public boolean hasAvailiableParkinglot(){
-        if (freeSpace > 0) return true;
+        if (totalSpace - parkingLotReceipts.size() > 0) return true;
         return false;
     }
 
