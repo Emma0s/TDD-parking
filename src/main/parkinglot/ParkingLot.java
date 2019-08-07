@@ -1,7 +1,7 @@
 package parkinglot;
 
 import exception.NoAvailableReceiptException;
-import exception.NoAvailiableParkinglotException;
+import exception.NoAvailableParkingLotException;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -19,7 +19,7 @@ public class ParkingLot {
         if (hasAvailiableParkinglot()){
             return giveReceipt(car);
         } else {
-            throw new NoAvailiableParkinglotException("当前可用车位为0！");
+            throw new NoAvailableParkingLotException("当前可用车位为0！");
         }
 
     }

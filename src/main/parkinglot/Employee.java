@@ -1,7 +1,7 @@
 package parkinglot;
 
 import exception.NoAvailableReceiptException;
-import exception.NoAvailiableParkinglotException;
+import exception.NoAvailableParkingLotException;
 
 import java.util.List;
 
@@ -13,14 +13,14 @@ public class Employee {
         this.parkingLots = parkingLots;
     }
 
-    public ParkingLotReceipt park(Car car) throws NoAvailiableParkinglotException {
+    public ParkingLotReceipt park(Car car) {
 
         for (ParkingLot parkingLot : parkingLots) {
             if (parkingLot.hasAvailiableParkinglot() == true){
                 return parkingLot.park(car);
             }
         }
-        throw new NoAvailiableParkinglotException("当前可用车位为0！");
+        throw new NoAvailableParkingLotException("当前可用车位为0！");
     }
 
     public Car get(ParkingLotReceipt receipt) {

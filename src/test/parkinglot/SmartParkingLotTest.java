@@ -6,7 +6,7 @@ import org.junit.Test;
 
 import java.util.Arrays;
 
-public class SmartParkinglotTest {
+public class SmartParkingLotTest {
     @Test
     public void should_success_with_only_parkinglot2_has_1_parkinglot_when_1_car_parking(){
         ParkingLot parkingLot1 = new ParkingLot(0);

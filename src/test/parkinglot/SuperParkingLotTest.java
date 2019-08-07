@@ -1,13 +1,13 @@
 package parkinglot;
 
 import exception.NoAvailableReceiptException;
-import exception.NoAvailiableParkinglotException;
+import exception.NoAvailableParkingLotException;
 import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.Arrays;
 
-public class SuperParkinglotTest {
+public class SuperParkingLotTest {
 
     @Test
     public void should_success_with_pl1_has_space_0_1_and_pl2_has_space_1_1_when_1_car_parking(){
@@ -59,7 +59,7 @@ public class SuperParkinglotTest {
         Assert.assertTrue(parkingLot1.containsReceipt(receipt2));
     }
 
-    @Test(expected = NoAvailiableParkinglotException.class)
+    @Test(expected = NoAvailableParkingLotException.class)
     public void should_failure_with_pl1_has_space_0_1_and_pl2_has_space_0_2_when_1_car_parking(){
         ParkingLot parkingLot1 = new ParkingLot(1);
         ParkingLot parkingLot2 = new ParkingLot(2);

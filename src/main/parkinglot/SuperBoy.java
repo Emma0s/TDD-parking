@@ -1,6 +1,6 @@
 package parkinglot;
 
-import exception.NoAvailiableParkinglotException;
+import exception.NoAvailableParkingLotException;
 
 import java.util.List;
 
@@ -11,14 +11,14 @@ public class SuperBoy extends Employee {
     }
 
     @Override
-    public ParkingLotReceipt park(Car car) throws NoAvailiableParkinglotException {
+    public ParkingLotReceipt park(Car car) {
         for (ParkingLot parkingLot : parkingLots) {
             if (parkingLot.hasAvailiableParkinglot()){
                 ParkingLot chooseParkingLot = chooseAvailableParkinglot(parkingLots);
                 return chooseParkingLot.park(car);
             }
         }
-        throw new NoAvailiableParkinglotException("当前可用车位为0！");
+        throw new NoAvailableParkingLotException("当前可用车位为0！");
     }
 
 
