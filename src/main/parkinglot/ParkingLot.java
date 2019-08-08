@@ -11,6 +11,9 @@ public class ParkingLot {
     protected int totalSpace;
     protected final Map<ParkingLotReceipt,Car> parkingLotReceipts = new HashMap<>();
 
+    public ParkingLot() {
+    }
+
     public ParkingLot(int totalSpace) {
         this.totalSpace = totalSpace;
     }
@@ -44,4 +47,13 @@ public class ParkingLot {
     public boolean isValidReceipt(ParkingLotReceipt receipt){
         return parkingLotReceipts.containsKey(receipt);
     }
+
+    public int getFreeSpace() {
+        return totalSpace - parkingLotReceipts.size();
+    }
+
+    public double getCurVacancyRate(){
+        return (double)getFreeSpace() / totalSpace;
+    }
+
 }

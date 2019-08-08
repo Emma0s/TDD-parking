@@ -1,8 +1,12 @@
 package parkinglot;
 
-import java.util.List;
+import exception.NoAvailableParkingLotException;
 
-public class SmartBoy extends GraduateBoy {
+import java.util.Comparator;
+import java.util.List;
+import java.util.Optional;
+
+public class SmartBoy extends ParkingBoy {
 
     public SmartBoy(List<ParkingLot> parkingLots) {
         super(parkingLots);
@@ -10,14 +14,10 @@ public class SmartBoy extends GraduateBoy {
 
     @Override
     public ParkingLotReceipt park(Car car) {
-        ParkingLot maxParkinglot = null;
-        int maxSpace = 0;
-        for (ParkingLot parkinglot : parkingLots) {
-            if (parkinglot.totalSpace - parkinglot.parkingLotReceipts.size() > maxSpace){
-                maxParkinglot = parkinglot;
-                maxSpace = parkinglot.totalSpace - parkinglot.parkingLotReceipts.size();
-            }
+        Optional<ParkingLot> parkingLot = parkingLots.stream().max(Comparator.comparing(ParkingLot::getFreeSpace));
+        if (parkingLot.isPresent()){
+            return parkingLot.get().park(car);
         }
-        return maxParkinglot.park(car);
+        throw  new NoAvailableParkingLotException("当前无可用车位！");
     }
 }

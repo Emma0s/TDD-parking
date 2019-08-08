@@ -1,5 +1,6 @@
 package parkinglot;
 
+import exception.NoAvailableParkingLotException;
 import exception.NoAvailableReceiptException;
 import org.junit.Assert;
 import org.junit.Test;
@@ -17,6 +18,14 @@ public class SmartParkingLotTest {
         ParkingLotReceipt receipt = smartBoy.park(car);
 
         Assert.assertTrue(parkingLot2.isValidReceipt(receipt));
+    }
+
+    @Test(expected = NoAvailableParkingLotException.class)
+    public void should_failure_with_parkinglots_has_no_space_when_1_car_parking(){
+        ParkingLot parkingLot1 = new ParkingLot(0);
+        ParkingLot parkingLot2 = new ParkingLot(0);
+        SmartBoy smartBoy = new SmartBoy(Arrays.asList(parkingLot1,parkingLot2));
+        smartBoy.park(new Car());
     }
 
     @Test
