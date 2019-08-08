@@ -5,18 +5,18 @@ import exception.NoAvailableParkingLotException;
 
 import java.util.List;
 
-public class Employee {
+public class GraduateBoy {
 
     protected List<ParkingLot> parkingLots;
 
-    public Employee(List<ParkingLot> parkingLots) {
+    public GraduateBoy(List<ParkingLot> parkingLots) {
         this.parkingLots = parkingLots;
     }
 
     public ParkingLotReceipt park(Car car) {
 
         for (ParkingLot parkingLot : parkingLots) {
-            if (parkingLot.hasAvailiableParkinglot() == true){
+            if (parkingLot.hasAvailableParkingLot() == true){
                 return parkingLot.park(car);
             }
         }
@@ -25,7 +25,7 @@ public class Employee {
 
     public Car get(ParkingLotReceipt receipt) {
         for (ParkingLot parkingLot : parkingLots) {
-            if (parkingLot.containsReceipt(receipt)){
+            if (parkingLot.isValidReceipt(receipt)){
                 return parkingLot.get(receipt);
             }
         }

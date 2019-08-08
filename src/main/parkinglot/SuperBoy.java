@@ -4,7 +4,7 @@ import exception.NoAvailableParkingLotException;
 
 import java.util.List;
 
-public class SuperBoy extends Employee {
+public class SuperBoy extends GraduateBoy {
 
     public SuperBoy(List<ParkingLot> parkingLots) {
         super(parkingLots);
@@ -13,8 +13,8 @@ public class SuperBoy extends Employee {
     @Override
     public ParkingLotReceipt park(Car car) {
         for (ParkingLot parkingLot : parkingLots) {
-            if (parkingLot.hasAvailiableParkinglot()){
-                ParkingLot chooseParkingLot = chooseAvailableParkinglot(parkingLots);
+            if (parkingLot.hasAvailableParkingLot()){
+                ParkingLot chooseParkingLot = chooseAvailableParkingLot(parkingLots);
                 return chooseParkingLot.park(car);
             }
         }
@@ -22,7 +22,7 @@ public class SuperBoy extends Employee {
     }
 
 
-    protected ParkingLot chooseAvailableParkinglot(List<ParkingLot> parkingLots) {
+    protected ParkingLot chooseAvailableParkingLot(List<ParkingLot> parkingLots) {
         double maxVacancyRate = 0;
         ParkingLot maxParkinglot = null;
         for (ParkingLot parkinglot : parkingLots) {

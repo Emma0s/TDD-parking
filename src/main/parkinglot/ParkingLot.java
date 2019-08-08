@@ -16,7 +16,7 @@ public class ParkingLot {
     }
 
     public ParkingLotReceipt park(Car car) {
-        if (hasAvailiableParkinglot()){
+        if (hasAvailableParkingLot()){
             return giveReceipt(car);
         } else {
             throw new NoAvailableParkingLotException("当前可用车位为0！");
@@ -24,7 +24,7 @@ public class ParkingLot {
 
     }
     public Car get(ParkingLotReceipt receipt) {
-        if (receipt == null || !isReceiptValid(receipt)){
+        if (receipt == null || !isValidReceipt(receipt)){
             throw new NoAvailableReceiptException("票据验证失败！");
         }
         return parkingLotReceipts.remove(receipt);
@@ -36,17 +36,12 @@ public class ParkingLot {
         return receipt;
     }
 
-    public boolean containsReceipt(ParkingLotReceipt receipt){
-        if (parkingLotReceipts.containsKey(receipt)) return true;
-        return false;
-    }
-
-    public boolean hasAvailiableParkinglot(){
+    public boolean hasAvailableParkingLot(){
         if (totalSpace - parkingLotReceipts.size() > 0) return true;
         return false;
     }
 
-    private boolean isReceiptValid(ParkingLotReceipt receipt){
+    public boolean isValidReceipt(ParkingLotReceipt receipt){
         return parkingLotReceipts.containsKey(receipt);
     }
 }

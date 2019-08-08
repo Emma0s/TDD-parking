@@ -17,7 +17,7 @@ public class SuperParkingLotTest {
 
         parkingLot1.park(new Car());
 
-        Assert.assertTrue(parkingLot2.containsReceipt(superBoy.park(new Car())));
+        Assert.assertTrue(parkingLot2.isValidReceipt(superBoy.park(new Car())));
     }
 
     @Test
@@ -28,7 +28,7 @@ public class SuperParkingLotTest {
 
         parkingLot2.park(new Car());
 
-        Assert.assertTrue(parkingLot1.containsReceipt(superBoy.park(new Car())));
+        Assert.assertTrue(parkingLot1.isValidReceipt(superBoy.park(new Car())));
     }
 
     @Test
@@ -39,7 +39,7 @@ public class SuperParkingLotTest {
 
         parkingLot1.park(new Car());
 
-        Assert.assertTrue(parkingLot2.containsReceipt(superBoy.park(new Car())));
+        Assert.assertTrue(parkingLot2.isValidReceipt(superBoy.park(new Car())));
     }
 
     @Test
@@ -55,8 +55,8 @@ public class SuperParkingLotTest {
         ParkingLotReceipt receipt1 = superBoy.park(car1);
         ParkingLotReceipt receipt2 = superBoy.park(car2);
 
-        Assert.assertTrue(parkingLot2.containsReceipt(receipt1));
-        Assert.assertTrue(parkingLot1.containsReceipt(receipt2));
+        Assert.assertTrue(parkingLot2.isValidReceipt(receipt1));
+        Assert.assertTrue(parkingLot1.isValidReceipt(receipt2));
     }
 
     @Test(expected = NoAvailableParkingLotException.class)

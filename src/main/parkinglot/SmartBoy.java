@@ -2,7 +2,7 @@ package parkinglot;
 
 import java.util.List;
 
-public class SmartBoy extends Employee {
+public class SmartBoy extends GraduateBoy {
 
     public SmartBoy(List<ParkingLot> parkingLots) {
         super(parkingLots);

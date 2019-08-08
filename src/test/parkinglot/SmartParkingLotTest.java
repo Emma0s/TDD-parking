@@ -16,7 +16,7 @@ public class SmartParkingLotTest {
         Car car = new Car();
         ParkingLotReceipt receipt = smartBoy.park(car);
 
-        Assert.assertTrue(parkingLot2.containsReceipt(receipt));
+        Assert.assertTrue(parkingLot2.isValidReceipt(receipt));
     }
 
     @Test
@@ -27,7 +27,7 @@ public class SmartParkingLotTest {
 
         ParkingLotReceipt receipt = smartBoy.park(new Car());
 
-        Assert.assertTrue(parkingLot2.containsReceipt(receipt));
+        Assert.assertTrue(parkingLot2.isValidReceipt(receipt));
     }
 
     @Test
@@ -39,7 +39,7 @@ public class SmartParkingLotTest {
         Car car = new Car();
         ParkingLotReceipt receipt = smartBoy.park(car);
 
-        Assert.assertTrue(parkingLot1.containsReceipt(receipt));
+        Assert.assertTrue(parkingLot1.isValidReceipt(receipt));
     }
 
     @Test
@@ -53,8 +53,8 @@ public class SmartParkingLotTest {
         ParkingLotReceipt receipt1 = smartBoy.park(car1);
         ParkingLotReceipt receipt2 = smartBoy.park(car2);
 
-        Assert.assertTrue(parkingLot2.containsReceipt(receipt1));
-        Assert.assertTrue(parkingLot1.containsReceipt(receipt2));
+        Assert.assertTrue(parkingLot2.isValidReceipt(receipt1));
+        Assert.assertTrue(parkingLot1.isValidReceipt(receipt2));
     }
 
     @Test
