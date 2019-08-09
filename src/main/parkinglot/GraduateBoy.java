@@ -1,8 +1,6 @@
 package parkinglot;
 
-import exception.NoAvailableReceiptException;
 import exception.NoAvailableParkingLotException;
-
 import java.util.List;
 
 public class GraduateBoy extends ParkingBoy {

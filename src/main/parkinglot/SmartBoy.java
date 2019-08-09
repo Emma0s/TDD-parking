@@ -14,6 +14,7 @@ public class SmartBoy extends ParkingBoy {
 
     @Override
     public ParkingLotReceipt park(Car car) {
+
         Optional<ParkingLot> parkingLot = parkingLots.stream().max(Comparator.comparing(ParkingLot::getFreeSpace));
         if (parkingLot.isPresent()){
             return parkingLot.get().park(car);

@@ -5,15 +5,17 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Parkinglot/parkinglot/GraduateBoy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Parkinglot/parkinglot/GraduateBoy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Parkinglot/parkinglot/ParkingBoy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Parkinglot/parkinglot/ParkingBoy.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Parkinglot/parkinglot/ParkingLot.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Parkinglot/parkinglot/ParkingLot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Parkinglot/parkinglot/ParkingLotReceipt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Parkinglot/parkinglot/ParkingLotReceipt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Parkinglot/parkinglot/SmartBoy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Parkinglot/parkinglot/SmartBoy.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Parkinglot/parkinglot/SuperBoy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Parkinglot/parkinglot/SuperBoy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Parkinglot/parkinglot/SmartParkinglotTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Parkinglot/parkinglot/SmartParkinglotTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/parkinglot/GraduateBoy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/parkinglot/GraduateBoy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/parkinglot/ParkingBoy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/parkinglot/ParkingBoy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/parkinglot/ParkingLot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/parkinglot/ParkingLot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/parkinglot/ParkingLotReceipt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/parkinglot/ParkingLotReceipt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/parkinglot/SmartBoy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/parkinglot/SmartBoy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/parkinglot/SuperBoy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/parkinglot/SuperBoy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/parkinglot/SmartParkingLotTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/parkinglot/SmartParkingLotTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,34 +30,38 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/parkinglot/ParkingLot.java">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="341">
+                <caret line="145" column="27" selection-start-line="145" selection-start-column="27" selection-end-line="145" selection-end-column="27" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/parkinglot/ParkingManagerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+            <state relative-caret-position="592">
+              <caret line="63" column="54" selection-start-line="63" selection-start-column="54" selection-end-line="63" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#380#381#0" expanded="true" />
-                <element signature="e#424#425#0" expanded="true" />
-                <element signature="e#1277#1278#0" expanded="true" />
-                <element signature="e#1339#1340#0" expanded="true" />
-                <element signature="e#1397#1398#0" expanded="true" />
-                <element signature="e#1458#1459#0" expanded="true" />
-                <element signature="e#1498#1499#0" expanded="true" />
-                <element signature="e#1556#1557#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/parkinglot/GraduateBoy.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/parkinglot/ParkingManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+            <state relative-caret-position="107">
+              <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#241#242#0" expanded="true" />
-                <element signature="e#275#276#0" expanded="true" />
+                <element signature="e#159#160#0" expanded="true" />
+                <element signature="e#186#187#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -64,24 +70,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/parkinglot/ParkingBoy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="52" lean-forward="true" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#177#178#0" expanded="true" />
-                <element signature="e#223#224#0" expanded="true" />
-                <element signature="e#269#270#0" expanded="true" />
-                <element signature="e#295#296#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/parkinglot/SmartParkingLotTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-359">
-              <caret line="61" selection-start-line="61" selection-end-line="61" />
+            <state relative-caret-position="296">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -89,39 +79,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/parkinglot/SmartBoy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="152">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#245#246#0" expanded="true" />
-                <element signature="e#279#280#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/parkinglot/SuperBoy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#245#246#0" expanded="true" />
-                <element signature="e#279#280#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/parkinglot/Car.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -162,8 +127,6 @@
         <option value="$PROJECT_DIR$/src/main/parkinglot/NoAvailableReceiptException.java" />
         <option value="$PROJECT_DIR$/src/main/exception/NoAvailableReceiptException.java" />
         <option value="$PROJECT_DIR$/src/test/parkinglot/GraduateParkinglot.java" />
-        <option value="$PROJECT_DIR$/src/main/parkinglot/SmartBoy.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/test/parkinglot/GraduateParkinglotTest.java" />
         <option value="$PROJECT_DIR$/src/test/parkinglot/ParkinglotTest.java" />
         <option value="$PROJECT_DIR$/src/test/parkinglot/SmartParkinglotTest.java" />
@@ -174,22 +137,27 @@
         <option value="$PROJECT_DIR$/src/test/parkinglot/ParkingLotTest.java" />
         <option value="$PROJECT_DIR$/src/test/parkinglot/SuperParkingLotTest.java" />
         <option value="$PROJECT_DIR$/src/main/parkinglot/Employee.java" />
-        <option value="$PROJECT_DIR$/src/main/parkinglot/ParkingLotReceipt.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/test/parkinglot/SmartParkingLotTest.java" />
         <option value="$PROJECT_DIR$/src/main/parkinglot/Employee.java" />
+        <option value="$PROJECT_DIR$/src/main/hackerRank/buildSubsequences.java" />
+        <option value="$PROJECT_DIR$/src/main/parkinglot/ParkingLotReceipt.java" />
         <option value="$PROJECT_DIR$/src/main/parkinglot/ParkingLotReceipt.java" />
         <option value="$PROJECT_DIR$/src/main/parkinglot/ParkingLot.java" />
-        <option value="$PROJECT_DIR$/src/main/parkinglot/SmartBoy.java" />
-        <option value="$PROJECT_DIR$/src/main/parkinglot/SuperBoy.java" />
         <option value="$PROJECT_DIR$/src/main/parkinglot/ParkingLot.java" />
+        <option value="$PROJECT_DIR$/src/main/parkinglot/GraduateBoy.java" />
+        <option value="$PROJECT_DIR$/src/main/parkinglot/GraduateBoy.java" />
+        <option value="$PROJECT_DIR$/src/main/parkinglot/GraduateBoy.java" />
+        <option value="$PROJECT_DIR$/src/main/parkinglot/SuperBoy.java" />
+        <option value="$PROJECT_DIR$/src/main/parkinglot/SuperBoy.java" />
+        <option value="$PROJECT_DIR$/src/main/parkinglot/SuperBoy.java" />
         <option value="$PROJECT_DIR$/src/main/parkinglot/SmartBoy.java" />
-        <option value="$PROJECT_DIR$/src/main/parkinglot/SuperBoy.java" />
+        <option value="$PROJECT_DIR$/src/main/parkinglot/SmartBoy.java" />
+        <option value="$PROJECT_DIR$/src/main/parkinglot/SmartBoy.java" />
         <option value="$PROJECT_DIR$/src/main/parkinglot/ParkingBoy.java" />
-        <option value="$PROJECT_DIR$/src/main/parkinglot/SuperBoy.java" />
-        <option value="$PROJECT_DIR$/src/main/parkinglot/GraduateBoy.java" />
-        <option value="$PROJECT_DIR$/src/main/parkinglot/GraduateBoy.java" />
-        <option value="$PROJECT_DIR$/src/main/parkinglot/GraduateBoy.java" />
+        <option value="$PROJECT_DIR$/src/main/parkinglot/ParkingManager.java" />
+        <option value="$PROJECT_DIR$/src/test/parkinglot/ParkingManagerTest.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -280,15 +248,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="parkinglot" />
       <recent name="" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="parkinglot" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -303,16 +271,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.parkinglot in Parkinglot">
-    <configuration name="All in Parkinglot" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Parkinglot" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SmartParkingLotTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ParkingManagerTest">
+    <configuration name="ParkingManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Parkinglot" />
       <extension name="coverage">
         <pattern>
@@ -321,13 +281,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="parkinglot" />
-      <option name="MAIN_CLASS_NAME" value="parkinglot.SmartParkingLotTest" />
+      <option name="MAIN_CLASS_NAME" value="parkinglot.ParkingManagerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SmartParkingLotTest.should_failure_with_fake_receipt_when_getting_car" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ParkingManagerTest.should_failure_with_own_1_parkingBoy_manage_1_parkingLot_has_0_space" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Parkinglot" />
       <extension name="coverage">
         <pattern>
@@ -336,14 +296,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="parkinglot" />
-      <option name="MAIN_CLASS_NAME" value="parkinglot.SmartParkingLotTest" />
-      <option name="METHOD_NAME" value="should_failure_with_fake_receipt_when_getting_car" />
+      <option name="MAIN_CLASS_NAME" value="parkinglot.ParkingManagerTest" />
+      <option name="METHOD_NAME" value="should_failure_with_own_1_parkingBoy_manage_1_parkingLot_has_0_space" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SuperParkingLotTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ParkingManagerTest.should_failure_with_own_1_parkingBoy_with_1_fake_receipt_when_get_1_car" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Parkinglot" />
       <extension name="coverage">
         <pattern>
@@ -352,13 +312,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="parkinglot" />
-      <option name="MAIN_CLASS_NAME" value="parkinglot.SuperParkingLotTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="parkinglot.ParkingManagerTest" />
+      <option name="METHOD_NAME" value="should_failure_with_own_1_parkingBoy_with_1_fake_receipt_when_get_1_car" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="parkinglot in Parkinglot" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ParkingManagerTest.should_success_first_with_own_2_parkingBoy_each_manage_2_parkingLot_has_1_space_when_parking_2_car" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Parkinglot" />
       <extension name="coverage">
         <pattern>
@@ -367,18 +328,36 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="parkinglot" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="MAIN_CLASS_NAME" value="parkinglot.ParkingManagerTest" />
+      <option name="METHOD_NAME" value="should_success_first_with_own_2_parkingBoy_each_manage_2_parkingLot_has_1_space_when_parking_2_car" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParkingManagerTest.should_success_with_own_2_parkingBoy_each_manage_2_parkingLot_has_1_space" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Parkinglot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="parkinglot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="parkinglot" />
+      <option name="MAIN_CLASS_NAME" value="parkinglot.ParkingManagerTest" />
+      <option name="METHOD_NAME" value="should_success_with_own_2_parkingBoy_each_manage_2_parkingLot_has_1_space" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.parkinglot in Parkinglot" />
-        <item itemvalue="JUnit.All in Parkinglot" />
-        <item itemvalue="JUnit.SmartParkingLotTest.should_failure_with_fake_receipt_when_getting_car" />
-        <item itemvalue="JUnit.SuperParkingLotTest" />
-        <item itemvalue="JUnit.SmartParkingLotTest" />
+        <item itemvalue="JUnit.ParkingManagerTest" />
+        <item itemvalue="JUnit.ParkingManagerTest.should_failure_with_own_1_parkingBoy_with_1_fake_receipt_when_get_1_car" />
+        <item itemvalue="JUnit.ParkingManagerTest.should_success_first_with_own_2_parkingBoy_each_manage_2_parkingLot_has_1_space_when_parking_2_car" />
+        <item itemvalue="JUnit.ParkingManagerTest.should_success_with_own_2_parkingBoy_each_manage_2_parkingLot_has_1_space" />
+        <item itemvalue="JUnit.ParkingManagerTest.should_failure_with_own_1_parkingBoy_manage_1_parkingLot_has_0_space" />
       </list>
     </recent_temporary>
   </component>
@@ -402,51 +381,51 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GraduateParkingLotTest - 2019.08.07 at 17h 31m 19s.xml">
-      <configuration name="GraduateParkingLotTest" configurationId="JUnit" />
+    <history-entry file="All_in_Parkinglot - 2019.08.09 at 12h 10m 48s.xml">
+      <configuration name="All in Parkinglot" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="parkinglot_in_Parkinglot - 2019.08.08 at 15h 23m 00s.xml">
+    <history-entry file="parkinglot_in_Parkinglot - 2019.08.09 at 14h 15m 25s.xml">
       <configuration name="parkinglot in Parkinglot" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="parkinglot_in_Parkinglot - 2019.08.07 at 17h 47m 57s.xml">
+    <history-entry file="parkinglot_in_Parkinglot - 2019.08.09 at 14h 23m 25s.xml">
       <configuration name="parkinglot in Parkinglot" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="parkinglot_in_Parkinglot - 2019.08.08 at 12h 00m 01s.xml">
-      <configuration name="parkinglot in Parkinglot" configurationId="JUnit" />
+    <history-entry file="ParkingManagerTest_should_success_with_1_parkingBoy_manage_1_has_1_space_parkingLot - 2019.08.09 at 16h 50m 28s.xml">
+      <configuration name="ParkingManagerTest.should_success_with_1_parkingBoy_manage_1_has_1_space_parkingLot" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="parkinglot_in_Parkinglot - 2019.08.08 at 12h 13m 19s.xml">
-      <configuration name="parkinglot in Parkinglot" configurationId="JUnit" />
+    <history-entry file="ParkingManagerTest_should_success_with_1_parkingBoy_manage_1_has_1_space_parkingLot - 2019.08.09 at 16h 51m 22s.xml">
+      <configuration name="ParkingManagerTest.should_success_with_1_parkingBoy_manage_1_has_1_space_parkingLot" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SmartParkingLotTest - 2019.08.08 at 12h 38m 14s.xml">
-      <configuration name="SmartParkingLotTest" configurationId="JUnit" />
+    <history-entry file="ParkingManagerTest_should_success_with_1_parkingBoy_manage_1_has_1_space_parkingLot - 2019.08.09 at 17h 01m 35s.xml">
+      <configuration name="ParkingManagerTest.should_success_with_1_parkingBoy_manage_1_has_1_space_parkingLot" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SmartParkingLotTest - 2019.08.08 at 12h 42m 21s.xml">
-      <configuration name="SmartParkingLotTest" configurationId="JUnit" />
+    <history-entry file="ParkingManagerTest_should_success_with_1_parkingBoy_manage_1_has_1_space_parkingLot - 2019.08.09 at 17h 06m 10s.xml">
+      <configuration name="ParkingManagerTest.should_success_with_1_parkingBoy_manage_1_has_1_space_parkingLot" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SuperParkingLotTest - 2019.08.08 at 14h 19m 29s.xml">
-      <configuration name="SuperParkingLotTest" configurationId="JUnit" />
+    <history-entry file="ParkingManagerTest_should_failure_with_own_1_parkingBoy_manage_1_parkingLot_has_0_space - 2019.08.09 at 17h 18m 58s.xml">
+      <configuration name="ParkingManagerTest.should_failure_with_own_1_parkingBoy_manage_1_parkingLot_has_0_space" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SuperParkingLotTest - 2019.08.08 at 14h 22m 11s.xml">
-      <configuration name="SuperParkingLotTest" configurationId="JUnit" />
+    <history-entry file="ParkingManagerTest - 2019.08.09 at 17h 19m 03s.xml">
+      <configuration name="ParkingManagerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="parkinglot_in_Parkinglot - 2019.08.08 at 14h 53m 28s.xml">
-      <configuration name="parkinglot in Parkinglot" configurationId="JUnit" />
+    <history-entry file="ParkingManagerTest_should_success_with_own_2_parkingBoy_each_manage_2_parkingLot_has_1_space - 2019.08.09 at 17h 36m 21s.xml">
+      <configuration name="ParkingManagerTest.should_success_with_own_2_parkingBoy_each_manage_2_parkingLot_has_1_space" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="parkinglot_in_Parkinglot - 2019.08.08 at 14h 54m 52s.xml">
-      <configuration name="parkinglot in Parkinglot" configurationId="JUnit" />
+    <history-entry file="ParkingManagerTest_should_success_first_with_own_2_parkingBoy_each_manage_2_parkingLot_has_1_space_when_parking_2_car - 2019.08.09 at 17h 47m 44s.xml">
+      <configuration name="ParkingManagerTest.should_success_first_with_own_2_parkingBoy_each_manage_2_parkingLot_has_1_space_when_parking_2_car" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SmartParkingLotTest_should_failure_with_fake_receipt_when_getting_car - 2019.08.08 at 14h 56m 23s.xml">
-      <configuration name="SmartParkingLotTest.should_failure_with_fake_receipt_when_getting_car" configurationId="JUnit" />
+    <history-entry file="ParkingManagerTest - 2019.08.09 at 17h 47m 48s.xml">
+      <configuration name="ParkingManagerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="parkinglot_in_Parkinglot - 2019.08.08 at 15h 47m 33s.xml">
-      <configuration name="parkinglot in Parkinglot" configurationId="JUnit" />
+    <history-entry file="ParkingManagerTest_should_failure_with_own_1_parkingBoy_with_1_fake_receipt_when_get_1_car - 2019.08.09 at 17h 59m 30s.xml">
+      <configuration name="ParkingManagerTest.should_failure_with_own_1_parkingBoy_with_1_fake_receipt_when_get_1_car" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="parkinglot_in_Parkinglot - 2019.08.08 at 15h 48m 14s.xml">
-      <configuration name="parkinglot in Parkinglot" configurationId="JUnit" />
+    <history-entry file="ParkingManagerTest - 2019.08.09 at 17h 59m 40s.xml">
+      <configuration name="ParkingManagerTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89268000" />
+    <option name="totallyTimeSpent" value="106840000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -461,7 +440,7 @@
     <frame x="31" y="23" width="1409" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49933776" visible="true" weight="0.09436723" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49933776" weight="0.45135334" />
       <window_info id="Structure" order="1" sideWeight="0.50066227" side_tool="true" weight="0.1667886" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -470,17 +449,17 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49963424" weight="0.45477706" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.40764332" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49963424" visible="true" weight="0.23184714" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4356688" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3299363" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.38726115" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.7363057" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.23821656" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5003658" side_tool="true" weight="0.3375796" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.19745223" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.29124424" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -530,10 +509,10 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/parkinglot/ParkingLotTest.java</url>
-          <line>76</line>
+          <url>file://$PROJECT_DIR$/src/main/hackerRank/buildSubsequences.java</url>
+          <line>37</line>
           <properties />
-          <option name="timeStamp" value="24" />
+          <option name="timeStamp" value="30" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -590,44 +569,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/exception/NoAvailableReceiptException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/parkinglot/GraduateParkingLotTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1387">
-          <caret line="73" column="76" selection-start-line="73" selection-start-column="76" selection-end-line="73" selection-end-column="76" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/exception/NoAvailableParkingLotException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="157">
-            <caret line="69" column="9" selection-start-line="69" selection-start-column="9" selection-end-line="69" selection-end-column="9" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -650,69 +595,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/parkinglot/ParkingLotTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="77" selection-start-line="77" selection-end-line="77" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="267" column="117" selection-start-line="267" selection-start-column="117" selection-end-line="267" selection-end-column="117" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/parkinglot/ParkingLot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#380#381#0" expanded="true" />
-            <element signature="e#424#425#0" expanded="true" />
-            <element signature="e#1277#1278#0" expanded="true" />
-            <element signature="e#1339#1340#0" expanded="true" />
-            <element signature="e#1397#1398#0" expanded="true" />
-            <element signature="e#1458#1459#0" expanded="true" />
-            <element signature="e#1498#1499#0" expanded="true" />
-            <element signature="e#1556#1557#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/parkinglot/Car.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/parkinglot/SuperBoy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#245#246#0" expanded="true" />
-            <element signature="e#279#280#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/parkinglot/SmartBoy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#245#246#0" expanded="true" />
-            <element signature="e#279#280#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-12619">
+          <caret line="100" column="50" selection-start-line="100" selection-start-column="50" selection-end-line="100" selection-end-column="50" />
         </state>
       </provider>
     </entry>
@@ -726,28 +612,164 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/parkinglot/ParkingBoy.java">
+    <entry file="file://$PROJECT_DIR$/src/main/hackerRank/buildSubsequences.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="52" lean-forward="true" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+        <state relative-caret-position="176">
+          <caret line="25" column="26" lean-forward="true" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#177#178#0" expanded="true" />
-            <element signature="e#223#224#0" expanded="true" />
-            <element signature="e#269#270#0" expanded="true" />
-            <element signature="e#295#296#0" expanded="true" />
+            <element signature="e#545#553#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/exception/NoAvailableParkingLotException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/exception/NoAvailableReceiptException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/parkinglot/ParkingLotTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="688">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jrt:///Applications/IntelliJ IDEA.app/Contents/jdk/Contents/Home!/java.base/java/util/Map.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/parkinglot/GraduateParkingLotTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="73" column="76" selection-start-line="73" selection-start-column="76" selection-end-line="73" selection-end-column="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/parkinglot/GraduateBoy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        <state relative-caret-position="95">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#241#242#0" expanded="true" />
-            <element signature="e#275#276#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/parkinglot/ParkingLot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/parkinglot/ParkingLotReceipt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/parkinglot/SuperBoy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jrt:///Applications/IntelliJ IDEA.app/Contents/jdk/Contents/Home!/java.base/java/lang/Iterable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/parkinglot/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jrt:///Applications/IntelliJ IDEA.app/Contents/jdk/Contents/Home!/java.base/java/util/stream/Stream.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-585">
+          <caret line="95" column="12" selection-start-line="95" selection-start-column="12" selection-end-line="95" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="341">
+            <caret line="145" column="27" selection-start-line="145" selection-start-column="27" selection-end-line="145" selection-end-column="27" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/parkinglot/ParkingManagerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="592">
+          <caret line="63" column="54" selection-start-line="63" selection-start-column="54" selection-end-line="63" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/parkinglot/ParkingManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#159#160#0" expanded="true" />
+            <element signature="e#186#187#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/parkinglot/ParkingBoy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/parkinglot/SmartBoy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

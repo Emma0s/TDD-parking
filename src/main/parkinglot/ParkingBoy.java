@@ -11,9 +11,7 @@ public abstract class ParkingBoy {
         this.parkingLots = parkingLots;
     }
 
-    public ParkingLotReceipt park(Car car) {
-        return null;
-    }
+    public abstract ParkingLotReceipt park(Car car);
 
     public Car get(ParkingLotReceipt receipt){
         for (ParkingLot parkingLot : parkingLots) {
@@ -22,5 +20,16 @@ public abstract class ParkingBoy {
             }
         }
         throw new NoAvailableReceiptException("票据验证失败！");
+    }
+
+    public boolean hasAvailableParkingLot(){
+        return parkingLots.stream().anyMatch(ParkingLot::hasAvailableParkingLot);
+    }
+
+    public boolean isValidReceipt(ParkingLotReceipt receipt){
+        for (ParkingLot parkingLot : parkingLots) {
+            return parkingLot.isValidReceipt(receipt);
+        }
+        throw new NoAvailableReceiptException("票据验证失败!");
     }
 }

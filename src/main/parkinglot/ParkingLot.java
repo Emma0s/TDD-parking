@@ -11,9 +11,6 @@ public class ParkingLot {
     protected int totalSpace;
     protected final Map<ParkingLotReceipt,Car> parkingLotReceipts = new HashMap<>();
 
-    public ParkingLot() {
-    }
-
     public ParkingLot(int totalSpace) {
         this.totalSpace = totalSpace;
     }
@@ -27,7 +24,7 @@ public class ParkingLot {
 
     }
     public Car get(ParkingLotReceipt receipt) {
-        if (receipt == null || !isValidReceipt(receipt)){
+        if (!isValidReceipt(receipt)){
             throw new NoAvailableReceiptException("票据验证失败！");
         }
         return parkingLotReceipts.remove(receipt);
@@ -40,8 +37,7 @@ public class ParkingLot {
     }
 
     public boolean hasAvailableParkingLot(){
-        if (totalSpace - parkingLotReceipts.size() > 0) return true;
-        return false;
+        return totalSpace > parkingLotReceipts.size();
     }
 
     public boolean isValidReceipt(ParkingLotReceipt receipt){
